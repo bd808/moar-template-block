@@ -1,0 +1,25 @@
+{
+  "name": "moar/template-block"
+  ,"description": "Block based template system"
+  ,"homepage": "https://github.com/bd808/moar-template-block"
+  ,"type": "library"
+  ,"license": "MIT"
+  ,"support": {
+    "source": "https://github.com/bd808/moar-template-block"
+    ,"issues": "https://github.com/bd808/moar-template-block/issues"
+  }
+  ,"authors": [
+    {
+      "name": "Bryan Davis"
+      ,"email": "bd808@bd808.com"
+      ,"homepage": "http://bd808.com"
+    }
+  ]
+  ,"require": {
+    "php": ">=5.3.0"
+    ,"moar/log": "dev-master"
+  }
+  ,"autoload": {
+    "psr-0": {"Moar\\Template": "src/"}
+  }
+}
